@@ -1,6 +1,7 @@
 .about {
     position: relative;
     counter-increment: count;
+
     // .about__title
 
     &__title {
@@ -100,6 +101,14 @@
     }
 }
 
-main .about:last-child {
-    padding-bottom: 264px;
-}
+
+// .about:nth-last-of-type(1) {
+//     margin-bottom: 264px;
+// }
+
+// main .about:last-child {
+//     margin-bottom: 264px;
+// }
+
+
+// FIXME задать отступы для последнего элемента с классом about
