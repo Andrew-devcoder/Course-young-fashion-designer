@@ -1,0 +1,105 @@
+.about {
+    position: relative;
+    counter-increment: count;
+    // .about__title
+
+    &__title {
+
+        text-align: center;
+
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 37px;
+
+        color: #FFFFFF;
+    }
+
+    // .about__item
+
+    &__item {
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        height: 507px;
+
+        &--reverse {
+            display: flex;
+            justify-content: start;
+            align-items: flex-end;
+            height: 507px;
+        }
+    }
+
+    // .about__img
+
+    &__img {
+        position: absolute;
+        top: 202px;
+        left: 0;
+
+        &--reverse {
+            position: absolute;
+            top: 202px;
+            right: 0;
+        }
+    }
+
+    // .about__content
+
+    &__content {
+        position: relative;
+        text-align: end;
+        max-width: 445px;
+
+        &--reverse {
+            position: relative;
+            text-align: start;
+            max-width: 445px;
+
+            &::before {
+                // content: counter(section-counter) "";
+                content: counter(count, decimal-leading-zero);
+
+                position: absolute;
+                top: -220px;
+                left: 0;
+
+
+                font-size: 190px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 232px;
+                /* identical to box height */
+
+
+                color: rgba(112, 123, 184, 0.15);
+            }
+        }
+
+
+        &::before {
+            // content: counter(section-counter) "";
+            content: counter(count, decimal-leading-zero);
+
+            position: absolute;
+            top: -220px;
+            right: 0;
+
+
+            font-size: 190px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 232px;
+            /* identical to box height */
+
+
+            color: rgba(112, 123, 184, 0.15);
+        }
+
+    }
+}
+
+main .about:last-child {
+    padding-bottom: 264px;
+}
