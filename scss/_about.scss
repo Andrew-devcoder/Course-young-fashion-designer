@@ -2,6 +2,7 @@
     position: relative;
     counter-increment: count;
 
+
     // .about__title
 
     &__title {
@@ -29,6 +30,7 @@
             justify-content: start;
             align-items: flex-end;
             height: 507px;
+
         }
     }
 
@@ -50,13 +52,22 @@
 
     &__content {
         position: relative;
-        text-align: end;
         max-width: 445px;
+
+        font-size: 17px;
+        text-align: end;
+        font-weight: 400;
+        line-height: 21px;
 
         &--reverse {
             position: relative;
-            text-align: start;
             max-width: 445px;
+
+            font-size: 17px;
+            text-align: start;
+            font-weight: 400;
+            line-height: 21px;
+            color: #FFFFFF;
 
             &::before {
                 // content: counter(section-counter) "";
@@ -74,7 +85,7 @@
                 /* identical to box height */
 
 
-                color: rgba(112, 123, 184, 0.15);
+                color: rgba(255, 255, 255, 0.15);
             }
         }
 

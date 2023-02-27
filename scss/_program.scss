@@ -1,12 +1,16 @@
 .program {
     position: relative;
-    margin: 254px 0 200px;
+    margin: 170px 0 0;
+    max-width: 100%;
+
+    background: linear-gradient(180deg, #6699CE 0%, #64A6D8 100%);
+    z-index: -1;
 
     // .program__img
 
     &__img {
         position: absolute;
-        top: 150px;
+        top: 265px;
         right: 0;
         z-index: -1;
     }
@@ -14,7 +18,7 @@
     // .program__title
 
     &__title {
-        padding: 0 0 30px;
+        padding: 120px 0 30px;
         text-align: center;
 
         font-size: 30px;
@@ -28,8 +32,8 @@
 
     &__line {
         margin: 0 auto;
-        width: 10%;
-        border: 3px solid #F190AA;
+        width: 15%;
+        border: 2px solid #F190AA;
     }
 
     // .program__list

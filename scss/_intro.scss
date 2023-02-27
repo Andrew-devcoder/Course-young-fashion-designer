@@ -1,7 +1,7 @@
 // FIXME position ellipce-fill change to % 
 // FIXME maybe change position ellipse-dached and change size 
 .intro {
-    padding: 128px 0 314px;
+    padding: 128px 0 219px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -9,6 +9,7 @@
     // .intro__title
 
     &__title {
+
         font-size: 45px;
         font-style: normal;
         font-weight: 700;
@@ -51,4 +52,11 @@
     position: absolute;
     right: 0;
     top: 478px;
+}
+
+.vecor-intro {
+    position: absolute;
+    top: 480px;
+    left: 0;
+    z-index: -1;
 }
