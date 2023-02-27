@@ -36,16 +36,17 @@
     }
 }
 
-.ellipce-fill {
+.ellipce-fill-bg {
     position: absolute;
     top: -369px;
     left: -161px;
     z-index: -1;
 
-    background-color: $color-yellow;
     width: 1201px;
     height: 1201px;
+
     border-radius: 50%;
+    background-color: $color-yellow;
 }
 
 .ellipce-dashed {
@@ -59,4 +60,28 @@
     top: 480px;
     left: 0;
     z-index: -1;
+}
+
+.ellips-border {
+    position: absolute;
+    top: 160px;
+    left: 190px;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+.ellips-fill {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    background: $color-pink;
 }
