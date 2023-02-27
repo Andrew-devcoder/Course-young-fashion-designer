@@ -1,0 +1,54 @@
+// FIXME position ellipce-fill change to % 
+// FIXME maybe change position ellipse-dached and change size 
+.intro {
+    padding: 128px 0 314px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    // .intro__title
+
+    &__title {
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+        text-transform: uppercase;
+    }
+
+    // .intro__content
+
+    &__content {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    // .intro__img
+
+    &__img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+.ellipce-fill {
+    position: absolute;
+    top: -369px;
+    left: -161px;
+    z-index: -1;
+
+    background-color: $color-yellow;
+    width: 1201px;
+    height: 1201px;
+    border-radius: 50%;
+}
+
+.ellipce-dashed {
+    position: absolute;
+    right: 0;
+    top: 478px;
+}

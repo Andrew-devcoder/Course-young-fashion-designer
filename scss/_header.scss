@@ -1,0 +1,36 @@
+// FIXME change position navigation - need to right , together with user-profile
+
+.header {
+    width: 100%;
+    height: 78px;
+    background: rgba(255, 255, 255, 0.75);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    // .header__logo
+
+    &__logo {}
+
+    // .header__nav
+
+    &__nav {
+        display: flex;
+        gap: 50px;
+
+
+        & a {
+            color: $color-black;
+        }
+
+        &--active {
+            font-weight: 700;
+        }
+    }
+
+    // .header__user-profile
+
+    &__user-profile {}
+}
