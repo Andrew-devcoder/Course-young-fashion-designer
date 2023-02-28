@@ -1,6 +1,5 @@
 .process {
     position: relative;
-    height: 1623px;
 
     // .process__decor
 
@@ -55,6 +54,7 @@
     &__list {
         max-width: 540px;
         margin: 0 auto;
+        padding-bottom: 180px;
         font-size: 17px;
         font-style: normal;
         font-weight: 400;
@@ -160,4 +160,82 @@
     height: 65px;
 
     border: 1px dashed #707BB8;
+}
+
+
+.price {
+    width: 57.5%;
+    margin: 0 auto;
+    background: rgba(99, 167, 216, 0.9);
+    // .price__body
+
+    &__body {
+        padding: 100px 0 117px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    // .price__title
+
+    &__title {
+        text-align: center;
+
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 37px;
+
+
+        color: #000000;
+    }
+
+    // .price__subtitle
+
+    &__subtitle {
+        padding: 27px 0 74px;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 37px;
+        /* identical to box height */
+    }
+
+    // .price__list
+
+    &__list {
+        max-width: 40%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 47px;
+        padding: 0 0 76px;
+
+        & p {
+            position: relative;
+            counter-increment: price-count;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 21px;
+            color: #000000;
+
+            &::before {
+                position: absolute;
+                top: -6px;
+                left: -60px;
+
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 34px;
+
+                color: #000000;
+
+                content: counter(price-count, decimal-leading-zero);
+            }
+        }
+    }
 }
