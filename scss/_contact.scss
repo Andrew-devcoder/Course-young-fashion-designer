@@ -32,6 +32,7 @@
     &__body {
         width: 100%;
         border: 1px solid #ffffff;
+        border-right: none;
         padding: 60px;
     }
 
@@ -146,6 +147,7 @@
     &__body {
         width: 100%;
         border: 1px solid $color-pink;
+        border-left: none;
         padding: 60px;
     }
 }
