@@ -150,9 +150,51 @@
     // .sign-up__body
 
     &__body {
+        position: relative;
+
+        padding: 146px 60px;
         width: 100%;
+
         border: 1px solid $color-pink;
         border-left: none;
-        padding: 60px;
+    }
+
+    &__form {
+        // padding: 164px 0;
+
+        & input {
+            width: 400px;
+            padding: 0 0 10px;
+            margin: 0 0 40px;
+
+            font-style: normal;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 21px;
+
+            color: #585858;
+
+            border-bottom: 1px solid #000000;
+
+            &[type="submit"] {
+                color: #FFFFFF;
+            }
+        }
+
+        & select {
+            width: 400px;
+            padding: 0 0 10px;
+            margin: 0 0 40px;
+
+            font-style: normal;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 21px;
+
+            color: #585858;
+
+            border-bottom: 1px solid #000000;
+
+        }
     }
 }

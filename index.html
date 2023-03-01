@@ -615,10 +615,48 @@
                                 or a trial lesson
                             </div>
                             <div class="sign-up__body">
-                                <form action="">
-                                    <input type="text" />
-                                    <input type="tel" />
-                                    <input type="email" />
+                                <form class="sign-up__form">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        placeholder="Your name"
+                                    /><br />
+
+                                    <input
+                                        type="tel"
+                                        name="phone"
+                                        placeholder="Your phone number"
+                                    /><br />
+
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        placeholder="Your e-mail"
+                                    /><br />
+
+                                    <!-- <label for="course"
+                                        >Choose your course or event:</label
+                                    > -->
+                                    <select
+                                        aria-placeholder="Choose your course or event:"
+                                        name="course"
+                                    >
+                                        <option value="webdesign">
+                                            Web design
+                                        </option>
+                                        <option value="photography">
+                                            Photography
+                                        </option>
+                                        <option value="marketing">
+                                            Marketing
+                                        </option>
+
+
+                                    <input
+                                        class="button button__submit"
+                                        type="submit"
+                                        value="Buy it"
+                                    />
                                 </form>
                             </div>
                         </div>
