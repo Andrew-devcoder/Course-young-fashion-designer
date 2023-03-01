@@ -1,4 +1,25 @@
 .container {
     margin: 0 auto;
-    max-width: 70%;
+
+    @media screen and (max-width: 1920px) {
+        width: 1440px;
+    }
+
+    @media screen and (max-width: 1600px) {
+        width: 1140px;
+    }
+
+    @media screen and (max-width: 1140px) {
+        width: 768px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 320px;
+    }
 }
+
+
+// 1920px=1440px 
+// 1440px=1140px 
+// 1140px=768px 
+// 768px=320px

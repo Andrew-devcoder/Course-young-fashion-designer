@@ -30,9 +30,23 @@
 
     &__img {
         position: absolute;
-        top: 0;
+        top: -80px;
         right: 0;
         z-index: -1;
+
+        @media screen and (min-width: 1601px) {
+            width: 40%;
+        }
+
+        @media screen and (max-width: 1140px) {
+            width: 50%;
+        }
+
+
+        @media screen and (max-width: 768px) {
+            width: 60%;
+        }
+
     }
 }
 
@@ -47,6 +61,20 @@
 
     border-radius: 50%;
     background-color: $color-yellow;
+
+    @media screen and (min-width: 1601px) {
+        width: 75%;
+    }
+
+    @media screen and (max-width: 1400px) {
+        width: 75%;
+    }
+
+    @media screen and (max-width: 1140px) {
+        width: 80%;
+    }
+
+
 }
 
 .ellipce-dashed {
@@ -67,14 +95,14 @@
     width: 100%;
     overflow-y: hidden;
 
-    @media screen and (min-width: 1600px) {
-        max-height: 5592px;
+    @media screen and (min-width: 1601px) {
+        top: 400px;
     }
 }
 
 .ellips-border {
     position: absolute;
-    top: 160px;
+    top: 80px;
     left: 190px;
 
     width: 30px;
@@ -82,11 +110,16 @@
 
     border-radius: 50%;
     border: 5px solid #ffffff;
+
+    @media screen and (min-width: 1601px) {
+        top: 85px;
+        left: 70px;
+    }
 }
 
 .ellips-fill {
     position: absolute;
-    top: 200px;
+    top: 110px;
     left: 120px;
 
     width: 70px;
@@ -94,4 +127,9 @@
 
     border-radius: 50%;
     background: $color-pink;
+
+    @media screen and (min-width: 1601px) {
+        top: 120px;
+        left: 0px;
+    }
 }

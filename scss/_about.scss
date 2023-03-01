@@ -2,6 +2,10 @@
     position: relative;
     counter-increment: count;
 
+    @media screen and (min-width: 1601px) {
+        padding: 50px 0 0;
+    }
+
 
     // .about__title
 
@@ -15,6 +19,8 @@
         line-height: 37px;
 
         color: #FFFFFF;
+
+
     }
 
     // .about__item
@@ -41,10 +47,21 @@
         top: 202px;
         left: 0;
 
+        @media screen and (min-width: 1601px) {
+            top: 252px
+        }
+
+
+
         &--reverse {
             position: absolute;
             top: 202px;
             right: 0;
+
+            @media screen and (min-width: 1601px) {
+                top: 252px
+            }
+
         }
     }
 
@@ -58,6 +75,12 @@
         text-align: end;
         font-weight: 400;
         line-height: 21px;
+        z-index: 2;
+
+        @media screen and (max-width: 1314px) {
+            padding: 10px;
+            background-color: rgba($color: #ffffff, $alpha: 0.4);
+        }
 
         &--reverse {
             position: relative;
@@ -68,6 +91,8 @@
             font-weight: 400;
             line-height: 21px;
             color: #FFFFFF;
+
+
 
             &::before {
                 // content: counter(section-counter) "";
@@ -86,6 +111,11 @@
 
 
                 color: rgba(255, 255, 255, 0.15);
+            }
+
+            @media screen and (max-width: 1314px) {
+                padding: 10px;
+                background-color: rgba($color: #000000, $alpha: 0.3);
             }
         }
 
@@ -122,9 +152,13 @@
     width: 672px;
     height: 410px;
     border: 10px solid #707BB8;
+
+    @media screen and (min-width: 1601px) {
+        top: 320px;
+    }
 }
 
-.rectangle-second- {
+.rectangle-second-img {
     position: absolute;
     left: 0px;
     top: 250px;
@@ -135,6 +169,10 @@
     border-width: 3px 3px 3px 0px;
     border-style: solid;
     border-color: #707BB8;
+
+    @media screen and (min-width: 1601px) {
+        top: 300px;
+    }
 }
 
 // FIXME задать отступы для последнего элемента с классом about

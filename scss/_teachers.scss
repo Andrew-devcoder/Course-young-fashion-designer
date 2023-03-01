@@ -1,6 +1,11 @@
 .teachers {
     position: relative;
-    margin-bottom: 100px;
+    margin: 0 0 100px;
+
+    @media screen and (min-width: 1601px) {
+        margin: 200px 0 100px;
+    }
+
     // .teachers__title
 
     &__title {
