@@ -1,25 +1,6 @@
 .process {
     position: relative;
 
-    // .process__decor
-
-    &__decor {
-
-
-
-        & img {}
-
-
-        & svg {
-            // position: absolute;
-            // top: 0;
-            // left: 0;
-            // z-index: -1;
-        }
-
-
-    }
-
     // .process__title
 
     &__title {
@@ -152,7 +133,7 @@
 
 .process-title-ellips-dashed {
     position: absolute;
-    top: 15px;
+    top: 0px;
     left: -20px;
     z-index: 1;
     border-radius: 50%;
@@ -167,6 +148,8 @@
     width: 57.5%;
     margin: 0 auto;
     background: rgba(99, 167, 216, 0.9);
+
+    position: relative;
     // .price__body
 
     &__body {
@@ -238,4 +221,9 @@
             }
         }
     }
+}
+
+.ellipce-price-dashed {
+    position: absolute;
+    top: 0;
 }

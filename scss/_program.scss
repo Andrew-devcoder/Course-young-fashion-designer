@@ -1,6 +1,6 @@
 .program {
     position: relative;
-    margin: 170px 0 0;
+    margin: 264px 0 0;
     max-width: 100%;
     z-index: -1;
 
@@ -74,4 +74,16 @@
         }
 
     }
+}
+
+.ellipce-program-small {
+    position: absolute;
+    top: 60px;
+    right: 170px;
+}
+
+.ellipce-program {
+    position: absolute;
+    bottom: -65px;
+    right: 560px;
 }

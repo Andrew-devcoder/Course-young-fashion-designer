@@ -113,13 +113,28 @@
 }
 
 
-// .about:nth-last-of-type(1) {
-//     margin-bottom: 264px;
-// }
+.rectangle-first-img {
+    position: absolute;
+    top: 270px;
+    left: 113px;
+    z-index: 1;
 
-// main .about:last-child {
-//     margin-bottom: 264px;
-// }
+    width: 672px;
+    height: 410px;
+    border: 10px solid #707BB8;
+}
 
+.rectangle-second- {
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    z-index: 2;
+
+    width: 785px;
+    height: 410px;
+    border-width: 3px 3px 3px 0px;
+    border-style: solid;
+    border-color: #707BB8;
+}
 
 // FIXME задать отступы для последнего элемента с классом about
