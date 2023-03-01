@@ -138,21 +138,41 @@
 
     &__title {
         margin-bottom: 31px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 37px;
+
         text-align: right;
 
-        color: #000000;
+
+
+        & span {
+            font-style: normal;
+            font-size: 30px;
+            line-height: 37px;
+            color: #000000;
+
+            &.bold {
+                font-weight: 700;
+            }
+
+            &.bold-pink {
+                font-weight: 700;
+                color: $color-pink;
+            }
+
+            &.pink {
+                color: $color-pink;
+            }
+        }
+
     }
+
+
 
     // .sign-up__body
 
     &__body {
         position: relative;
 
-        padding: 146px 60px;
+        padding: 146px 85px;
         width: 100%;
 
         border: 1px solid $color-pink;
