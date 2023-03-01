@@ -55,11 +55,21 @@
     top: 478px;
 }
 
+.bg-decor-intro {
+    position: relative;
+}
+
 .vecor-intro {
     position: absolute;
     top: 480px;
-    left: 0;
+    left: auto;
     z-index: -1;
+    width: 100%;
+    overflow-y: hidden;
+
+    @media screen and (min-width: 1600px) {
+        max-height: 5592px;
+    }
 }
 
 .ellips-border {
