@@ -26,6 +26,8 @@
         flex-direction: column;
         gap: 37px;
         width: 40px;
+
+
     }
 
     // .footer__logo
@@ -83,4 +85,11 @@
         width: 60%;
         border: 1px solid rgba(255, 255, 255, 0.5);
     }
+}
+
+
+.footer__icon a:hover {
+    scale: 1.2;
+    filter: drop-shadow(0 0 15px #0056d8);
+    transition: all 0.2s ease;
 }
