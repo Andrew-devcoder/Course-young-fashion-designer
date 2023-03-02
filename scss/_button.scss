@@ -48,6 +48,11 @@
 
         position: absolute;
         top: 140px;
-        right: -120px;
+        right: -100px;
+
+        @media screen and (max-width: 1368px) {
+            max-width: 140px;
+            height: 140px;
+        }
     }
 }
