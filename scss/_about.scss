@@ -56,9 +56,10 @@
         top: 202px;
         left: 0;
 
-        // @media screen and (min-width: 1601px) {
-        //     top: 252px
-        // }
+        @media screen and (max-width: 1440px) {
+            width: 45%;
+            top: 110px;
+        }
 
         @media screen and (max-width: 1140px) {
             width: 45%;

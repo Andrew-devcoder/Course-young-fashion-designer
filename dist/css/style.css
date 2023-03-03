@@ -365,6 +365,12 @@ svg {
   top: 202px;
   left: 0;
 }
+@media screen and (max-width: 1440px) {
+  .about__img {
+    width: 45%;
+    top: 110px;
+  }
+}
 @media screen and (max-width: 1140px) {
   .about__img {
     width: 45%;
