@@ -1,16 +1,17 @@
 .container {
     margin: 0 auto;
+    max-width: 1140px;
 
-    @media screen and (max-width: 1920px) {
-        width: 1440px;
-    }
+    // @media screen and (max-width: 1920px) {
+    //     width: 1440px;
+    // }
 
     @media screen and (max-width: 1600px) {
         width: 1120px;
     }
 
     @media screen and (max-width: 1140px) {
-        width: 768px;
+        width: 968px;
     }
 
     @media screen and (max-width: 768px) {
@@ -18,7 +19,7 @@
     }
 }
 
-
+// TODO @media screen and (max-width: 1140px) для всі елементів
 // 1920px=1440px 
 // 1440px=1140px 
 // 1140px=768px 

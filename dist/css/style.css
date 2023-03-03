@@ -120,11 +120,7 @@ svg {
 }
 .container {
   margin: 0 auto;
-}
-@media screen and (max-width: 1920px) {
-  .container {
-    width: 1440px;
-  }
+  max-width: 1140px;
 }
 @media screen and (max-width: 1600px) {
   .container {
@@ -133,7 +129,7 @@ svg {
 }
 @media screen and (max-width: 1140px) {
   .container {
-    width: 768px;
+    width: 968px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -209,6 +205,11 @@ svg {
   flex-direction: column;
   gap: 40px;
 }
+@media screen and (max-width: 1140px) {
+  .intro {
+    padding: 98px 0 119px;
+  }
+}
 .intro__title {
   font-size: 45px;
   font-style: normal;
@@ -216,6 +217,11 @@ svg {
   line-height: 55px;
   text-transform: uppercase;
   z-index: 1;
+}
+@media screen and (max-width: 1140px) {
+  .intro__title {
+    font-size: 40px;
+  }
 }
 .intro__content {
   font-size: 17px;
@@ -236,7 +242,7 @@ svg {
 }
 @media screen and (max-width: 1140px) {
   .intro__img {
-    width: 50%;
+    width: 40%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -267,7 +273,10 @@ svg {
 }
 @media screen and (max-width: 1140px) {
   .ellipce-fill-bg {
-    width: 80%;
+    width: 1001px;
+    height: 1001px;
+    top: -349px;
+    left: -250px;
   }
 }
 
@@ -276,6 +285,12 @@ svg {
   right: 0;
   top: 478px;
   z-index: -1;
+}
+@media screen and (max-width: 1140px) {
+  .ellipce-dashed {
+    width: 15%;
+    top: 208px;
+  }
 }
 
 .bg-decor-intro {
@@ -292,6 +307,11 @@ svg {
 @media screen and (min-width: 1601px) {
   .vecor-intro {
     top: 400px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .vecor-intro {
+    top: 350px;
   }
 }
 
@@ -355,11 +375,22 @@ svg {
   align-items: flex-end;
   height: 507px;
 }
+@media screen and (max-width: 1140px) {
+  .about__item {
+    height: 357px;
+  }
+}
 .about__item--reverse {
   display: flex;
   justify-content: start;
   align-items: flex-end;
   height: 507px;
+}
+@media screen and (max-width: 1140px) {
+  .about__item--reverse {
+    height: 357px;
+    margin: 20px 0 0;
+  }
 }
 .about__img {
   position: absolute;
@@ -371,6 +402,12 @@ svg {
     top: 252px;
   }
 }
+@media screen and (max-width: 1140px) {
+  .about__img {
+    width: 45%;
+    top: 80px;
+  }
+}
 .about__img--reverse {
   position: absolute;
   top: 202px;
@@ -379,6 +416,20 @@ svg {
 @media screen and (min-width: 1601px) {
   .about__img--reverse {
     top: 252px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .about__img--reverse {
+    width: 40%;
+    top: 105px;
+  }
+}
+.about__img--last {
+  z-index: 2;
+}
+@media screen and (max-width: 1140px) {
+  .about__img--last {
+    top: 70px;
   }
 }
 .about__content {
@@ -393,34 +444,11 @@ svg {
 @media screen and (max-width: 1314px) {
   .about__content {
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.4);
   }
 }
-.about__content--reverse {
-  position: relative;
-  max-width: 445px;
-  font-size: 17px;
-  text-align: start;
-  font-weight: 400;
-  line-height: 21px;
-  color: #FFFFFF;
-}
-.about__content--reverse::before {
-  content: counter(count, decimal-leading-zero);
-  position: absolute;
-  top: -220px;
-  left: 0;
-  font-size: 190px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 232px;
-  /* identical to box height */
-  color: rgba(255, 255, 255, 0.15);
-}
-@media screen and (max-width: 1314px) {
-  .about__content--reverse {
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
+@media screen and (max-width: 1140px) {
+  .about__content {
+    font-size: 16px;
   }
 }
 .about__content::before {
@@ -432,8 +460,49 @@ svg {
   font-style: normal;
   font-weight: 900;
   line-height: 232px;
-  /* identical to box height */
   color: rgba(112, 123, 184, 0.15);
+}
+@media screen and (max-width: 1140px) {
+  .about__content::before {
+    font-size: 150px;
+    top: -200px;
+  }
+}
+.about__content--reverse {
+  position: relative;
+  max-width: 445px;
+  font-size: 17px;
+  text-align: start;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 1314px) {
+  .about__content--reverse {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .about__content--reverse {
+    font-size: 16px;
+  }
+}
+.about__content--reverse::before {
+  content: counter(count, decimal-leading-zero);
+  position: absolute;
+  top: -220px;
+  left: 0;
+  font-size: 190px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 232px;
+  color: rgba(255, 255, 255, 0.15);
+}
+@media screen and (max-width: 1140px) {
+  .about__content--reverse::before {
+    font-size: 150px;
+    top: -200px;
+  }
 }
 
 .rectangle-first-img {
@@ -450,12 +519,20 @@ svg {
     top: 320px;
   }
 }
+@media screen and (max-width: 1140px) {
+  .rectangle-first-img {
+    scale: 0.8;
+    top: 58px;
+    left: -24px;
+    border-width: 8px;
+  }
+}
 
 .rectangle-second-img {
   position: absolute;
   left: 0px;
   top: 250px;
-  z-index: 2;
+  z-index: 1;
   width: 785px;
   height: 410px;
   border-width: 3px 3px 3px 0px;
@@ -465,6 +542,14 @@ svg {
 @media screen and (min-width: 1601px) {
   .rectangle-second-img {
     top: 300px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .rectangle-second-img {
+    top: 117px;
+    left: 0;
+    width: 50%;
+    height: 85%;
   }
 }
 
@@ -479,11 +564,22 @@ svg {
     margin: 400px 0 0;
   }
 }
+@media screen and (max-width: 1140px) {
+  .program {
+    margin: 85px 0 0;
+  }
+}
 .program__img {
   position: absolute;
   top: 265px;
   right: 0;
   z-index: -1;
+}
+@media screen and (max-width: 1140px) {
+  .program__img {
+    top: 165px;
+    width: 45%;
+  }
 }
 .program__title {
   padding: 120px 0 30px;
@@ -494,6 +590,11 @@ svg {
   line-height: 37px;
   color: #FFFFFF;
 }
+@media screen and (max-width: 1140px) {
+  .program__title {
+    padding: 80px 0 20px;
+  }
+}
 .program__line {
   margin: 0 auto;
   width: 15%;
@@ -503,10 +604,17 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 53px;
-  margin-top: 130px;
+  margin: 130px 0 0;
   padding: 57px 0 58px 130px;
   width: 83%;
   background: rgba(241, 144, 170, 0.7);
+}
+@media screen and (max-width: 1140px) {
+  .program__list {
+    gap: 35px;
+    width: 77%;
+    margin: 65px 0 0;
+  }
 }
 .program__list p {
   position: relative;
@@ -534,6 +642,15 @@ svg {
   top: 60px;
   right: 170px;
 }
+@media screen and (max-width: 1140px) {
+  .ellipce-program-small {
+    width: 41px;
+    height: 41px;
+    top: 48px px;
+    right: 0;
+    left: 397px;
+  }
+}
 
 .ellipce-program {
   position: absolute;
@@ -557,7 +674,7 @@ svg {
 }
 @media screen and (max-width: 1140px) {
   .teachers {
-    margin: 200px 0 50px;
+    margin: 150px 0 50px;
   }
 }
 .teachers__title {
@@ -569,6 +686,11 @@ svg {
   font-weight: 700;
   line-height: 37px;
   color: #000000;
+}
+@media screen and (max-width: 1140px) {
+  .teachers__title {
+    padding: 0;
+  }
 }
 .teachers__cards {
   display: flex;

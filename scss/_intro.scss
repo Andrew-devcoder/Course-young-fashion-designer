@@ -6,6 +6,10 @@
     flex-direction: column;
     gap: 40px;
 
+    @media screen and (max-width: 1140px) {
+        padding: 98px 0 119px;
+    }
+
     // .intro__title
 
     &__title {
@@ -17,6 +21,12 @@
         text-transform: uppercase;
 
         z-index: 1;
+
+        @media screen and (max-width: 1140px) {
+            font-size: 40px;
+        }
+
+
     }
 
     // .intro__content
@@ -41,7 +51,7 @@
         }
 
         @media screen and (max-width: 1140px) {
-            width: 50%;
+            width: 40%;
         }
 
 
@@ -73,7 +83,10 @@
     }
 
     @media screen and (max-width: 1140px) {
-        width: 80%;
+        width: 1001px;
+        height: 1001px;
+        top: -349px;
+        left: -250px;
     }
 
 
@@ -84,6 +97,11 @@
     right: 0;
     top: 478px;
     z-index: -1;
+
+    @media screen and (max-width: 1140px) {
+        width: 15%;
+        top: 208px;
+    }
 }
 
 .bg-decor-intro {
@@ -99,6 +117,10 @@
 
     @media screen and (min-width: 1601px) {
         top: 400px;
+    }
+
+    @media screen and (max-width: 1140px) {
+        top: 350px;
     }
 }
 
