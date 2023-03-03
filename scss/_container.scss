@@ -10,7 +10,11 @@
         width: 1120px;
     }
 
-    @media screen and (max-width: 1140px) {
+    // @media screen and (max-width: 1140px) {
+    //     width: 968px;
+    // }
+
+    @media screen and (max-width: 1355px) {
         width: 968px;
     }
 
@@ -19,7 +23,6 @@
     }
 }
 
-// TODO @media screen and (max-width: 1140px) для всі елементів
 // 1920px=1440px 
 // 1440px=1140px 
 // 1140px=768px 

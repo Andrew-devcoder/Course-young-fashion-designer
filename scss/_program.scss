@@ -4,9 +4,9 @@
     max-width: 100%;
     z-index: 1;
 
-    @media screen and (min-width: 1601px) {
-        margin: 400px 0 0;
-    }
+    // @media screen and (min-width: 1601px) {
+    //     margin: 400px 0 0;
+    // }
 
     @media screen and (max-width: 1140px) {
         margin: 85px 0 0;
@@ -119,7 +119,7 @@
     bottom: -65px;
     right: 560px;
 
-    @media screen and (min-width: 1601px) {
-        right: 660px;
-    }
+    // @media screen and (min-width: 1601px) {
+    //     right: 660px;
+    // }
 }

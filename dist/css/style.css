@@ -127,7 +127,7 @@ svg {
     width: 1120px;
   }
 }
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1355px) {
   .container {
     width: 968px;
   }
@@ -235,11 +235,6 @@ svg {
   right: 0;
   z-index: -1;
 }
-@media screen and (min-width: 1601px) {
-  .intro__img {
-    width: 40%;
-  }
-}
 @media screen and (max-width: 1140px) {
   .intro__img {
     width: 40%;
@@ -260,11 +255,6 @@ svg {
   height: 1201px;
   border-radius: 50%;
   background-color: #FAD829;
-}
-@media screen and (min-width: 1601px) {
-  .ellipce-fill-bg {
-    width: 75%;
-  }
 }
 @media screen and (max-width: 1400px) {
   .ellipce-fill-bg {
@@ -304,11 +294,6 @@ svg {
   width: 100%;
   overflow-y: hidden;
 }
-@media screen and (min-width: 1601px) {
-  .vecor-intro {
-    top: 400px;
-  }
-}
 @media screen and (max-width: 1140px) {
   .vecor-intro {
     top: 350px;
@@ -323,12 +308,6 @@ svg {
   height: 30px;
   border-radius: 50%;
   border: 5px solid #ffffff;
-}
-@media screen and (min-width: 1601px) {
-  .ellips-border {
-    top: 85px;
-    left: 70px;
-  }
 }
 @media screen and (max-width: 1140px) {
   .ellips-border {
@@ -345,21 +324,10 @@ svg {
   border-radius: 50%;
   background: #F190AA;
 }
-@media screen and (min-width: 1601px) {
-  .ellips-fill {
-    top: 120px;
-    left: 0px;
-  }
-}
 
 .about {
   position: relative;
   counter-increment: count;
-}
-@media screen and (min-width: 1601px) {
-  .about {
-    padding: 50px 0 0;
-  }
 }
 .about__title {
   text-align: center;
@@ -397,11 +365,6 @@ svg {
   top: 202px;
   left: 0;
 }
-@media screen and (min-width: 1601px) {
-  .about__img {
-    top: 252px;
-  }
-}
 @media screen and (max-width: 1140px) {
   .about__img {
     width: 45%;
@@ -412,11 +375,6 @@ svg {
   position: absolute;
   top: 202px;
   right: 0;
-}
-@media screen and (min-width: 1601px) {
-  .about__img--reverse {
-    top: 252px;
-  }
 }
 @media screen and (max-width: 1140px) {
   .about__img--reverse {
@@ -514,11 +472,6 @@ svg {
   height: 410px;
   border: 10px solid #707BB8;
 }
-@media screen and (min-width: 1601px) {
-  .rectangle-first-img {
-    top: 320px;
-  }
-}
 @media screen and (max-width: 1140px) {
   .rectangle-first-img {
     scale: 0.8;
@@ -539,11 +492,6 @@ svg {
   border-style: solid;
   border-color: #707BB8;
 }
-@media screen and (min-width: 1601px) {
-  .rectangle-second-img {
-    top: 300px;
-  }
-}
 @media screen and (max-width: 1140px) {
   .rectangle-second-img {
     top: 117px;
@@ -558,11 +506,6 @@ svg {
   margin: 264px 0 0;
   max-width: 100%;
   z-index: 1;
-}
-@media screen and (min-width: 1601px) {
-  .program {
-    margin: 400px 0 0;
-  }
 }
 @media screen and (max-width: 1140px) {
   .program {
@@ -657,20 +600,10 @@ svg {
   bottom: -65px;
   right: 560px;
 }
-@media screen and (min-width: 1601px) {
-  .ellipce-program {
-    right: 660px;
-  }
-}
 
 .teachers {
   position: relative;
   margin: 0 0 100px;
-}
-@media screen and (min-width: 1601px) {
-  .teachers {
-    margin: 200px 0 100px;
-  }
 }
 @media screen and (max-width: 1140px) {
   .teachers {
