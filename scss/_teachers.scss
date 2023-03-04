@@ -6,6 +6,10 @@
         margin: 100px 0 100px;
     }
 
+    @media screen and (max-width: 1367px) {
+        margin: 130px 0 100px;
+    }
+
     @media screen and (max-width: 1140px) {
         margin: 150px 0 50px;
     }
@@ -24,9 +28,14 @@
 
         color: #000000;
 
+        @media screen and (max-width: 1367px) {
+            padding: 0;
+        }
+
         @media screen and (max-width: 1140px) {
             padding: 0;
         }
+
     }
 
     // .teachers__cards

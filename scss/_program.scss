@@ -8,6 +8,10 @@
         margin: 220px 0 0;
     }
 
+    @media screen and (max-width: 1367px) {
+        margin: 85px 0 0;
+    }
+
     @media screen and (max-width: 1140px) {
         margin: 85px 0 0;
     }
@@ -22,6 +26,11 @@
 
         @media screen and (min-width: 1601px) {
             width: 42%;
+        }
+
+        @media screen and (max-width: 1367px) {
+            width: 40%;
+            top: 235px;
         }
 
         @media screen and (max-width: 1140px) {
@@ -72,6 +81,13 @@
             margin: 180px 0 0;
             padding: 70px 0 70px 150px;
             gap: 60px;
+        }
+
+        @media screen and (max-width: 1367px) {
+            gap: 40px;
+            width: 80%;
+            margin: 100px 0 0;
+            padding: 70px 0 90px 140px;
         }
 
         @media screen and (max-width: 1140px) {

@@ -10,11 +10,11 @@
         width: 1120px;
     }
 
-    // @media screen and (max-width: 1140px) {
-    //     width: 968px;
-    // }
+    @media screen and (max-width: 1367px) {
+        width: 1120px;
+    }
 
-    @media screen and (max-width: 1355px) {
+    @media screen and (max-width: 1140px) {
         width: 968px;
     }
 
@@ -27,3 +27,5 @@
 // 1440px=1140px 
 // 1140px=768px 
 // 768px=320px
+
+// TODO screen for 1367px
